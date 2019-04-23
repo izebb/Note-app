@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewNoteButton should render without errors 1`] = `
+<NewNoteButton
+  onClick={[Function]}
+>
+  <NewNoteButton__NewNoteStyled>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "NewNoteButton__NewNoteStyled-sc-1ya28nm-0",
+            "isStatic": true,
+            "lastClassName": "kWPUOQ",
+            "rules": Array [
+              "width:100%;height:100px;display:flex;align-items:center;justify-content:center;",
+            ],
+          },
+          "displayName": "NewNoteButton__NewNoteStyled",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "NewNoteButton__NewNoteStyled-sc-1ya28nm-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="NewNoteButton__NewNoteStyled-sc-1ya28nm-0 kWPUOQ"
+      >
+        <NewNoteButton__NewButtonStyled
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "NewNoteButton__NewButtonStyled-sc-1ya28nm-1",
+                  "isStatic": true,
+                  "lastClassName": "USkOH",
+                  "rules": Array [
+                    "color:#fff;background-color:#6021f3;padding:0 50px;height:37px;font-size:13px;border-radius:5px;height:37px;font-size:13px;border-radius:50px;box-shadow:1px 1px 10px rgba(0,0,0,0.32);border:none;font-weight:600;text-decoration:none;display:flex;align-items:center;&:focus{text-decoration:none;}",
+                  ],
+                },
+                "displayName": "NewNoteButton__NewButtonStyled",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "NewNoteButton__NewButtonStyled-sc-1ya28nm-1",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <button
+              className="NewNoteButton__NewButtonStyled-sc-1ya28nm-1 USkOH"
+              onClick={[Function]}
+            >
+              Add Note
+            </button>
+          </StyledComponent>
+        </NewNoteButton__NewButtonStyled>
+      </div>
+    </StyledComponent>
+  </NewNoteButton__NewNoteStyled>
+</NewNoteButton>
+`;

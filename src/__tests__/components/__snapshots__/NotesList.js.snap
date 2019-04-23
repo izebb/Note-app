@@ -1,0 +1,689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotesList should call onDelete 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <NotesList
+      data={
+        Array [
+          Object {
+            "createdAt": 1555756283344,
+            "id": "71c34d00-6357-11e9-8524-59c0881df9c7",
+            "noteTitle": "New note",
+            "textEditorInput": "sample text",
+          },
+        ]
+      }
+      onClick={[MockFunction]}
+      onDelete={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "71c34d00-6357-11e9-8524-59c0881df9c7",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      onSearch={[MockFunction]}
+      searchValue=""
+    >
+      <NotesList__NoteListContainerStyled>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "NotesList__NoteListContainerStyled-sc-8hxduq-0",
+                "isStatic": true,
+                "lastClassName": "SPOQt",
+                "rules": Array [
+                  "flex:1;overflow-y:auto;",
+                ],
+              },
+              "displayName": "NotesList__NoteListContainerStyled",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "NotesList__NoteListContainerStyled-sc-8hxduq-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="NotesList__NoteListContainerStyled-sc-8hxduq-0 SPOQt"
+          >
+            <NotesList__SearchContainerStyled>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NotesList__SearchContainerStyled-sc-8hxduq-5",
+                      "isStatic": true,
+                      "lastClassName": "bLwNSJ",
+                      "rules": Array [
+                        "padding:0 30px;margin:10px 0;",
+                      ],
+                    },
+                    "displayName": "NotesList__SearchContainerStyled",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NotesList__SearchContainerStyled-sc-8hxduq-5",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="NotesList__SearchContainerStyled-sc-8hxduq-5 bLwNSJ"
+                >
+                  <NotesList__SearchStyled
+                    onChange={[MockFunction]}
+                    placeholder="Search Notes..."
+                    value=""
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "NotesList__SearchStyled-sc-8hxduq-6",
+                            "isStatic": true,
+                            "lastClassName": "bUrlEr",
+                            "rules": Array [
+                              "width:100%;height:30px;box-sizing:border-box;border:none;padding:0 5px;border-radius:4px;font-size:14px;&:focus{outline:none;}",
+                            ],
+                          },
+                          "displayName": "NotesList__SearchStyled",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "NotesList__SearchStyled-sc-8hxduq-6",
+                          "target": "input",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      onChange={[MockFunction]}
+                      placeholder="Search Notes..."
+                      value=""
+                    >
+                      <input
+                        className="NotesList__SearchStyled-sc-8hxduq-6 bUrlEr"
+                        onChange={[MockFunction]}
+                        placeholder="Search Notes..."
+                        value=""
+                      />
+                    </StyledComponent>
+                  </NotesList__SearchStyled>
+                </div>
+              </StyledComponent>
+            </NotesList__SearchContainerStyled>
+            <NotesList__NoteItemStyled
+              activeClassName="selected"
+              as={[Function]}
+              className="note"
+              key="71c34d00-6357-11e9-8524-59c0881df9c7"
+              to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+            >
+              <StyledComponent
+                activeClassName="selected"
+                as={[Function]}
+                className="note"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NotesList__NoteItemStyled-sc-8hxduq-2",
+                      "isStatic": true,
+                      "lastClassName": "bpBOyh",
+                      "rules": Array [
+                        "display:flex;flex-direction:column;padding:15px 20px 12px 20px;margin-left:40px;color:#ccc;border-bottom:1px dashed #b5b5b5;text-decoration:none;position:relative;padding-right:45px;overflow:hidden;&:hover{",
+                        ".NotesList__DeleteButton-sc-8hxduq-1",
+                        "{opacity:0.8;transform:none;}}&.selected{color:#fff;}",
+                      ],
+                    },
+                    "displayName": "NotesList__NoteItemStyled",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NotesList__NoteItemStyled-sc-8hxduq-2",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+              >
+                <NavLink
+                  activeClassName="selected"
+                  className="note NotesList__NoteItemStyled-sc-8hxduq-2 bpBOyh"
+                  to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+                >
+                  <Route
+                    path="\\\\/71c34d00-6357-11e9-8524-59c0881df9c7"
+                  >
+                    <Link
+                      aria-current={null}
+                      className="note NotesList__NoteItemStyled-sc-8hxduq-2 bpBOyh"
+                      to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+                    >
+                      <a
+                        aria-current={null}
+                        className="note NotesList__NoteItemStyled-sc-8hxduq-2 bpBOyh"
+                        href="/71c34d00-6357-11e9-8524-59c0881df9c7"
+                        onClick={[Function]}
+                      >
+                        <NotesList__NoteItemTitleStyled>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "NotesList__NoteItemTitleStyled-sc-8hxduq-3",
+                                  "isStatic": true,
+                                  "lastClassName": "hhiMFx",
+                                  "rules": Array [
+                                    "font-weight:700;",
+                                  ],
+                                },
+                                "displayName": "NotesList__NoteItemTitleStyled",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "NotesList__NoteItemTitleStyled-sc-8hxduq-3",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="NotesList__NoteItemTitleStyled-sc-8hxduq-3 hhiMFx"
+                            >
+                              New note
+                            </div>
+                          </StyledComponent>
+                        </NotesList__NoteItemTitleStyled>
+                        <NotesList__NoteItemDateStyled>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "NotesList__NoteItemDateStyled-sc-8hxduq-4",
+                                  "isStatic": true,
+                                  "lastClassName": "dhlkpA",
+                                  "rules": Array [
+                                    "font-size:12px;margin-top:20px;",
+                                  ],
+                                },
+                                "displayName": "NotesList__NoteItemDateStyled",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "NotesList__NoteItemDateStyled-sc-8hxduq-4",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="NotesList__NoteItemDateStyled-sc-8hxduq-4 dhlkpA"
+                            >
+                              April 20th, 2019, 12:31:23 PM
+                            </div>
+                          </StyledComponent>
+                        </NotesList__NoteItemDateStyled>
+                        <NotesList__DeleteButton
+                          id="delete_button"
+                          onClick={[Function]}
+                        >
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "NotesList__DeleteButton-sc-8hxduq-1",
+                                  "isStatic": true,
+                                  "lastClassName": "eXrCde",
+                                  "rules": Array [
+                                    "background-color:transparent;border:none;width:40px;position:absolute;right:5px;opacity:0;transform:translateX(20px);transition:transform 200ms ease-out,opacity 150ms ease-out;",
+                                  ],
+                                },
+                                "displayName": "NotesList__DeleteButton",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "NotesList__DeleteButton-sc-8hxduq-1",
+                                "target": "button",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            id="delete_button"
+                            onClick={[Function]}
+                          >
+                            <button
+                              className="NotesList__DeleteButton-sc-8hxduq-1 eXrCde"
+                              id="delete_button"
+                              onClick={[Function]}
+                            >
+                              <img
+                                src={
+                                  Object {
+                                    "process": [Function],
+                                  }
+                                }
+                              />
+                            </button>
+                          </StyledComponent>
+                        </NotesList__DeleteButton>
+                      </a>
+                    </Link>
+                  </Route>
+                </NavLink>
+              </StyledComponent>
+            </NotesList__NoteItemStyled>
+          </div>
+        </StyledComponent>
+      </NotesList__NoteListContainerStyled>
+    </NotesList>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`NotesList should render without errors 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <NotesList
+      data={
+        Array [
+          Object {
+            "createdAt": 1555756283344,
+            "id": "71c34d00-6357-11e9-8524-59c0881df9c7",
+            "noteTitle": "New note",
+            "textEditorInput": "sample text",
+          },
+        ]
+      }
+      onClick={[MockFunction]}
+      onDelete={[MockFunction]}
+      onSearch={[MockFunction]}
+      searchValue=""
+    >
+      <NotesList__NoteListContainerStyled>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "NotesList__NoteListContainerStyled-sc-8hxduq-0",
+                "isStatic": true,
+                "lastClassName": "SPOQt",
+                "rules": Array [
+                  "flex:1;overflow-y:auto;",
+                ],
+              },
+              "displayName": "NotesList__NoteListContainerStyled",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "NotesList__NoteListContainerStyled-sc-8hxduq-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="NotesList__NoteListContainerStyled-sc-8hxduq-0 SPOQt"
+          >
+            <NotesList__SearchContainerStyled>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NotesList__SearchContainerStyled-sc-8hxduq-5",
+                      "isStatic": true,
+                      "lastClassName": "bLwNSJ",
+                      "rules": Array [
+                        "padding:0 30px;margin:10px 0;",
+                      ],
+                    },
+                    "displayName": "NotesList__SearchContainerStyled",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NotesList__SearchContainerStyled-sc-8hxduq-5",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="NotesList__SearchContainerStyled-sc-8hxduq-5 bLwNSJ"
+                >
+                  <NotesList__SearchStyled
+                    onChange={[MockFunction]}
+                    placeholder="Search Notes..."
+                    value=""
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "NotesList__SearchStyled-sc-8hxduq-6",
+                            "isStatic": true,
+                            "lastClassName": "bUrlEr",
+                            "rules": Array [
+                              "width:100%;height:30px;box-sizing:border-box;border:none;padding:0 5px;border-radius:4px;font-size:14px;&:focus{outline:none;}",
+                            ],
+                          },
+                          "displayName": "NotesList__SearchStyled",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "NotesList__SearchStyled-sc-8hxduq-6",
+                          "target": "input",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      onChange={[MockFunction]}
+                      placeholder="Search Notes..."
+                      value=""
+                    >
+                      <input
+                        className="NotesList__SearchStyled-sc-8hxduq-6 bUrlEr"
+                        onChange={[MockFunction]}
+                        placeholder="Search Notes..."
+                        value=""
+                      />
+                    </StyledComponent>
+                  </NotesList__SearchStyled>
+                </div>
+              </StyledComponent>
+            </NotesList__SearchContainerStyled>
+            <NotesList__NoteItemStyled
+              activeClassName="selected"
+              as={[Function]}
+              className="note"
+              key="71c34d00-6357-11e9-8524-59c0881df9c7"
+              to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+            >
+              <StyledComponent
+                activeClassName="selected"
+                as={[Function]}
+                className="note"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NotesList__NoteItemStyled-sc-8hxduq-2",
+                      "isStatic": true,
+                      "lastClassName": "bpBOyh",
+                      "rules": Array [
+                        "display:flex;flex-direction:column;padding:15px 20px 12px 20px;margin-left:40px;color:#ccc;border-bottom:1px dashed #b5b5b5;text-decoration:none;position:relative;padding-right:45px;overflow:hidden;&:hover{",
+                        ".NotesList__DeleteButton-sc-8hxduq-1",
+                        "{opacity:0.8;transform:none;}}&.selected{color:#fff;}",
+                      ],
+                    },
+                    "displayName": "NotesList__NoteItemStyled",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NotesList__NoteItemStyled-sc-8hxduq-2",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+              >
+                <NavLink
+                  activeClassName="selected"
+                  className="note NotesList__NoteItemStyled-sc-8hxduq-2 bpBOyh"
+                  to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+                >
+                  <Route
+                    path="\\\\/71c34d00-6357-11e9-8524-59c0881df9c7"
+                  >
+                    <Link
+                      aria-current={null}
+                      className="note NotesList__NoteItemStyled-sc-8hxduq-2 bpBOyh"
+                      to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+                    >
+                      <a
+                        aria-current={null}
+                        className="note NotesList__NoteItemStyled-sc-8hxduq-2 bpBOyh"
+                        href="/71c34d00-6357-11e9-8524-59c0881df9c7"
+                        onClick={[Function]}
+                      >
+                        <NotesList__NoteItemTitleStyled>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "NotesList__NoteItemTitleStyled-sc-8hxduq-3",
+                                  "isStatic": true,
+                                  "lastClassName": "hhiMFx",
+                                  "rules": Array [
+                                    "font-weight:700;",
+                                  ],
+                                },
+                                "displayName": "NotesList__NoteItemTitleStyled",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "NotesList__NoteItemTitleStyled-sc-8hxduq-3",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="NotesList__NoteItemTitleStyled-sc-8hxduq-3 hhiMFx"
+                            >
+                              New note
+                            </div>
+                          </StyledComponent>
+                        </NotesList__NoteItemTitleStyled>
+                        <NotesList__NoteItemDateStyled>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "NotesList__NoteItemDateStyled-sc-8hxduq-4",
+                                  "isStatic": true,
+                                  "lastClassName": "dhlkpA",
+                                  "rules": Array [
+                                    "font-size:12px;margin-top:20px;",
+                                  ],
+                                },
+                                "displayName": "NotesList__NoteItemDateStyled",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "NotesList__NoteItemDateStyled-sc-8hxduq-4",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="NotesList__NoteItemDateStyled-sc-8hxduq-4 dhlkpA"
+                            >
+                              April 20th, 2019, 12:31:23 PM
+                            </div>
+                          </StyledComponent>
+                        </NotesList__NoteItemDateStyled>
+                        <NotesList__DeleteButton
+                          id="delete_button"
+                          onClick={[Function]}
+                        >
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "NotesList__DeleteButton-sc-8hxduq-1",
+                                  "isStatic": true,
+                                  "lastClassName": "eXrCde",
+                                  "rules": Array [
+                                    "background-color:transparent;border:none;width:40px;position:absolute;right:5px;opacity:0;transform:translateX(20px);transition:transform 200ms ease-out,opacity 150ms ease-out;",
+                                  ],
+                                },
+                                "displayName": "NotesList__DeleteButton",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "NotesList__DeleteButton-sc-8hxduq-1",
+                                "target": "button",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            id="delete_button"
+                            onClick={[Function]}
+                          >
+                            <button
+                              className="NotesList__DeleteButton-sc-8hxduq-1 eXrCde"
+                              id="delete_button"
+                              onClick={[Function]}
+                            >
+                              <img
+                                src={
+                                  Object {
+                                    "process": [Function],
+                                  }
+                                }
+                              />
+                            </button>
+                          </StyledComponent>
+                        </NotesList__DeleteButton>
+                      </a>
+                    </Link>
+                  </Route>
+                </NavLink>
+              </StyledComponent>
+            </NotesList__NoteItemStyled>
+          </div>
+        </StyledComponent>
+      </NotesList__NoteListContainerStyled>
+    </NotesList>
+  </Router>
+</MemoryRouter>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextEditor should render without errors 1`] = `
+<TextEditor
+  onEditorChange={[MockFunction]}
+  save={[MockFunction]}
+  textEditorInput=""
+>
+  <TextEditor__EditorContainerStyled>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "TextEditor__EditorContainerStyled-pfhyks-0",
+            "isStatic": true,
+            "lastClassName": "cgLLHa",
+            "rules": Array [
+              "flex:1;",
+            ],
+          },
+          "displayName": "TextEditor__EditorContainerStyled",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "TextEditor__EditorContainerStyled-pfhyks-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="TextEditor__EditorContainerStyled-pfhyks-0 cgLLHa"
+      >
+        <TextEditor__TextArea
+          onBlur={[MockFunction]}
+          onChange={[MockFunction]}
+          value=""
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "TextEditor__TextArea-pfhyks-1",
+                  "isStatic": true,
+                  "lastClassName": "bghDmZ",
+                  "rules": Array [
+                    "width:100%;box-sizing:border-box;border:none;height:100%;background:transparent;font-size:16px;line-height:1.6;font-weight:300;padding:20px;white-space:pre-wrap;resize:none;&:focus{outline:none;}",
+                  ],
+                },
+                "displayName": "TextEditor__TextArea",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "TextEditor__TextArea-pfhyks-1",
+                "target": "textarea",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onBlur={[MockFunction]}
+            onChange={[MockFunction]}
+            value=""
+          >
+            <textarea
+              className="TextEditor__TextArea-pfhyks-1 bghDmZ"
+              onBlur={[MockFunction]}
+              onChange={[MockFunction]}
+              value=""
+            />
+          </StyledComponent>
+        </TextEditor__TextArea>
+      </div>
+    </StyledComponent>
+  </TextEditor__EditorContainerStyled>
+</TextEditor>
+`;

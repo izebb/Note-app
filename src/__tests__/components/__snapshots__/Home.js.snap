@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should redirect to NoteView 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Provider)
+      value={
+        Object {
+          "createNote": [MockFunction],
+          "notes": Array [
+            Object {
+              "createdAt": 1555756283344,
+              "id": "71c34d00-6357-11e9-8524-59c0881df9c7",
+              "noteTitle": "New note",
+              "textEditorInput": "sadsdadasdeadadasdasasd",
+            },
+          ],
+        }
+      }
+    >
+      <Route>
+        <Provider
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          value={
+            Object {
+              "createNote": [MockFunction],
+              "notes": Array [
+                Object {
+                  "createdAt": 1555756283344,
+                  "id": "71c34d00-6357-11e9-8524-59c0881df9c7",
+                  "noteTitle": "New note",
+                  "textEditorInput": "sadsdadasdeadadasdasasd",
+                },
+              ],
+            }
+          }
+        >
+          <Home>
+            <mockConstructor
+              replace={true}
+              to="/71c34d00-6357-11e9-8524-59c0881df9c7"
+            >
+              <div />
+            </mockConstructor>
+          </Home>
+        </Provider>
+      </Route>
+    </withRouter(Provider)>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`Home should render without errors 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Provider)>
+      <Route>
+        <Provider
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+        >
+          <Home>
+            <Home__EmptyContainerStyled>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Home__EmptyContainerStyled-sc-1ekeehx-2",
+                      "isStatic": true,
+                      "lastClassName": "bJMqqO",
+                      "rules": Array [
+                        "display:flex;flex-direction:column;align-items:center;flex:1;font-weight:300;font-size:30px;padding-top:130px;color:#444;",
+                      ],
+                    },
+                    "displayName": "Home__EmptyContainerStyled",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Home__EmptyContainerStyled-sc-1ekeehx-2",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="Home__EmptyContainerStyled-sc-1ekeehx-2 bJMqqO"
+                >
+                  <Home__ImgStyled
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Home__ImgStyled-sc-1ekeehx-0",
+                            "isStatic": true,
+                            "lastClassName": "cooWeX",
+                            "rules": Array [
+                              "height:240px;opacity:0.35;",
+                            ],
+                          },
+                          "displayName": "Home__ImgStyled",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Home__ImgStyled-sc-1ekeehx-0",
+                          "target": "img",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    >
+                      <img
+                        className="Home__ImgStyled-sc-1ekeehx-0 cooWeX"
+                        src={
+                          Object {
+                            "process": [Function],
+                          }
+                        }
+                      />
+                    </StyledComponent>
+                  </Home__ImgStyled>
+                  <Home__TextStyled>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Home__TextStyled-sc-1ekeehx-1",
+                            "isStatic": true,
+                            "lastClassName": "iAsTaz",
+                            "rules": Array [
+                              "color:#444;margin-bottom:20px;",
+                            ],
+                          },
+                          "displayName": "Home__TextStyled",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Home__TextStyled-sc-1ekeehx-1",
+                          "target": "p",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <p
+                        className="Home__TextStyled-sc-1ekeehx-1 iAsTaz"
+                      >
+                        You do not have any notes. Let's make one for you
+                      </p>
+                    </StyledComponent>
+                  </Home__TextStyled>
+                  <div>
+                    <NewNoteButton
+                      onClick={[Function]}
+                    >
+                      <NewNoteButton__NewNoteStyled>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "NewNoteButton__NewNoteStyled-sc-1ya28nm-0",
+                                "isStatic": true,
+                                "lastClassName": "kWPUOQ",
+                                "rules": Array [
+                                  "width:100%;height:100px;display:flex;align-items:center;justify-content:center;",
+                                ],
+                              },
+                              "displayName": "NewNoteButton__NewNoteStyled",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "NewNoteButton__NewNoteStyled-sc-1ya28nm-0",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="NewNoteButton__NewNoteStyled-sc-1ya28nm-0 kWPUOQ"
+                          >
+                            <NewNoteButton__NewButtonStyled
+                              onClick={[Function]}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "NewNoteButton__NewButtonStyled-sc-1ya28nm-1",
+                                      "isStatic": true,
+                                      "lastClassName": "USkOH",
+                                      "rules": Array [
+                                        "color:#fff;background-color:#6021f3;padding:0 50px;height:37px;font-size:13px;border-radius:5px;height:37px;font-size:13px;border-radius:50px;box-shadow:1px 1px 10px rgba(0,0,0,0.32);border:none;font-weight:600;text-decoration:none;display:flex;align-items:center;&:focus{text-decoration:none;}",
+                                      ],
+                                    },
+                                    "displayName": "NewNoteButton__NewButtonStyled",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "NewNoteButton__NewButtonStyled-sc-1ya28nm-1",
+                                    "target": "button",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="NewNoteButton__NewButtonStyled-sc-1ya28nm-1 USkOH"
+                                  onClick={[Function]}
+                                >
+                                  Add Note
+                                </button>
+                              </StyledComponent>
+                            </NewNoteButton__NewButtonStyled>
+                          </div>
+                        </StyledComponent>
+                      </NewNoteButton__NewNoteStyled>
+                    </NewNoteButton>
+                  </div>
+                </div>
+              </StyledComponent>
+            </Home__EmptyContainerStyled>
+          </Home>
+        </Provider>
+      </Route>
+    </withRouter(Provider)>
+  </Router>
+</MemoryRouter>
+`;
